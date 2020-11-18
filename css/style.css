@@ -3,6 +3,20 @@ body {
   background-color: hsl(210, 46%, 95%);
 }
 
+img {
+  display: inline-block;
+  height: 33px;
+  margin-right: 15px;
+  vertical-align: middle;
+  object-fit: cover;
+  border: 2px solid;
+}
+
+.user {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .container-fluid {
   padding: 10%;
 }
@@ -15,26 +29,36 @@ body {
   border-radius: 10px;
   border: none;
   margin: 20px;
+  padding: 35px;
+  box-shadow: black;
 }
 
-.card-title {
+.card-header {
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+.title {
   font-weight: 600;
   font-size: 13px;
-  line-height: 0;
+  margin: 0;
 }
 
-.card-subtitle {
+.subtitle {
   font-weight: 500;
   font-size: 13px;
   opacity: 50%;
+  margin: 0;
 }
 
 .card-body {
-  padding: 35px;
+  padding: 0;
 }
 
 .big-quote {
   font-weight: 600;
+  padding-top: 15px;
 }
 
 .small-quote {
