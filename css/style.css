@@ -1,0 +1,68 @@
+body {
+  font-family: "Barlow Semi Condensed";
+  background-color: hsl(210, 46%, 95%);
+}
+
+.container-fluid {
+  padding: 10%;
+}
+
+.d-flex {
+  padding: 0;
+}
+
+.card {
+  border-radius: 10px;
+  border: none;
+  margin: 20px;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 0;
+}
+
+.card-subtitle {
+  font-weight: 500;
+  font-size: 13px;
+  opacity: 50%;
+}
+
+.card-body {
+  padding: 35px;
+}
+
+.big-quote {
+  font-weight: 600;
+}
+
+.small-quote {
+  font-weight: 500;
+  font-size: 13px;
+  opacity: 70%;
+}
+
+.purple-card {
+  background-color: hsl(263, 55%, 52%);
+  color: hsl(210, 46%, 95%);
+  background-image: url("../images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-position-x: 80%;
+}
+
+.light-gray-card {
+  background-color: hsl(217, 19%, 35%);
+  color: hsl(210, 46%, 95%);
+}
+
+.dark-gray-card {
+  background-color: hsl(219, 29%, 14%);
+  color: hsl(210, 46%, 95%);
+}
+
+.white-card {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(217, 19%, 35%);
+}
