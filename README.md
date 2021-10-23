@@ -1,4 +1,4 @@
-## Live Demo https://timschulzrc.github.io/testimonials-grid-section-main/
+## Live Demo: https://timschulzrc.github.io/testimonials-grid-section-main/
 
 # Frontend Mentor - Testimonials grid section
 
